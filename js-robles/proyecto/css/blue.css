@@ -1,0 +1,19 @@
+body{
+    background: url('../img/cielo.jpg');
+    /*background-attachment: fixed:esto sirve si hago scroll en la pagina 
+    iempre se muestre asi el fondo y no se acabe la imagen
+    */
+    background-attachment: fixed; 
+}
+
+
+#logo{
+    background: #1f87c4;
+}
+
+#menu ul li:hover{
+    background: #1f87c4;   
+}
+.boton{
+    background: #1f87c4;
+}

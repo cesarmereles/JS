@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+    <link id="theme" rel="stylesheet" type="text/css" href="./css/blue.css">
+    
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment-with-locales.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/locale/es.min.js"></script>
+    
+    <script type="text/javascript" src="/proyecto/js/main.js"></script>
+
+
+    
+    <title>Proyecto javascript</title>
+</head>
+
+<body>
+    <div id="selector-theme">
+        <div id="to-green"></div>
+        <div id="to-red"></div>
+        <div id="to-blue"></div>
+    </div>
+    <!-- estructura global -->
+    <section id="global">
+        <!-- cabecera -->
+        <header>
+            <div id="logo">
+                <h1>Proyecto JS</h1>
+            </div>
+            <div class="clearfix"></div>
+            <nav id="menu">
+                <ul>
+                    <li><a href="index.html">INICIO</a></li>
+                    <li><a href="reloj.html">RELOJ</a></li>
+                    <li><a href="Acerca.html">SOBRE MI</a></li>
+                    <li><a href="contacto.html">CONTACTO</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!-- slider -->
+        <!-- <div id="slider">
+            <div class="bxslider">
+                <div><img src="/proyecto/img/hojas.jpg" title="Hojas"></div>
+                <div><img src="/proyecto/img/rojo.jpg" title="Rojo"></div>
+                <div><img src="/proyecto/img/cielo.jpg" title="Cielo"></div>
+              </div>
+        </div> -->
+        <!-- contenido -->
+        <section id="content">
+            <div id="posts">
+               <!-- genero los post dinamicamente -->
+            </div>
+            <aside id="aside">
+                <div id="acercaDe">
+                    <h4><span> Acerca de...</span></h4>
+                    <img src="/proyecto/img/caracol.jpg" alt="caracol">
+                    <p>Lorem ipsum dolor sit amet</p>
+                </div>
+                <div id="login">
+                    <h4> <span>Identificate</span></h4>
+                    <form>
+                        <label for="name">Nombre:
+                            <input type="text" name="name" id="form_name">
+                        </label>
+                        <label for="email">Correo:
+                            <input type="email" name="email" id="form_email">
+                        </label>
+                        <label for="pass">Contraseña:
+                            <input type="password" name="pass" id="form_pass">
+                        </label>
+                        <input type="submit" value="Enviar">
+                    </form>
+                </div>
+            </aside>
+            <div class="clearfix"></div>
+        </section>
+    </section>
+    <footer id="footer">
+        Cesar Augusto Mereles &copy;
+        <a href="#" class="subir">Ir A</a>
+    </footer>
+</body>
+
+</html>

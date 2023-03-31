@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .caja{
+         width: 200px;
+         height:250px;
+         float: left;   
+         margin: 20px;
+        }
+        .resultado{
+            width: 200px;
+            height:250px;
+            display:block;
+            float:right;
+            border: 3px dashed black;
+        }
+    </style>
+    <script type="text/javascript" src="fundamentos/js/23-ejercicio-dom.js"></script>
+    <title>Ejercicio completo Dom, Eventos y Funciones</title>
+</head>
+<body>
+    <!-- 
+        1-formulario campos nombre, apellido, edad
+        2-boton enviar Formulario: evento submit
+        3-mostrar datos por pantalla
+        4-tener un boton que al darle click nos muestra los datos actuales del formulario
+
+    -->
+    <h1>Ejercicio completo Dom, Eventos y Funciones</h1>
+    <p><div class="caja">
+        <form method="POST" id="formulario" onsubmit="return false;">
+            <label for="nombre">Nombre:</label><br> 
+            <input type="text" name="nombre" id="nombre"><br>
+            <span id="error_nombre"></span>
+
+            <label for="apellido">Apellido:</label><br>
+            <input type="text" name="apellido" id="apellido"><br>
+            <label for="edad">Edad:</label><br>
+            <input type="number" name="edad" id="edad"><br>
+            <input type="submit" value="Enviar" id="submit">
+        </form>
+        
+    
+    </p></div>
+    <div class="resultado">
+        <h3>Informacion del usuario</h3>
+        <hr>
+        <p id="vnombre">
+            Nombre: <span></span>
+        </p>
+        <p id="vapellido">
+            Nombre: <span></span>
+        </p>
+        <p id="vedad">
+            Nombre: <span></span>
+        </p>
+    </div>
+    
+</body>
+</html>

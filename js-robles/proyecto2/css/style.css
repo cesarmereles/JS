@@ -1,0 +1,164 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* html{
+    font-size: 62.5%;
+} */
+body{
+    background: url(../img/hojas.jpg);
+    /*esta propiedad hace que siempre se muestre el fondo
+    y no se acabe la imagen*/
+    background-attachment: fixed;
+}
+.caja{
+    width: 70%;
+    background: white;
+    margin: 0px auto;
+    padding: 15px;
+
+}
+
+.logo{
+    
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    letter-spacing: 4px;
+    text-align: center;
+    width: 380px;
+    height: 70px;
+    line-height: 60px;
+    background-color: #235e3d;
+    color: white;
+    padding: 7px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.menu{
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    list-style: none;
+    background-color: #333;
+    margin-bottom: 5px;
+    width: 100%;
+}
+.menu ul{
+    display: flex;
+    justify-content: space-between;
+    line-height: 38px;
+    list-style: none; 
+}
+.menu ul li{
+    transition: all 300ms;
+}
+.menu ul li:hover{
+    background-color: #235e3d;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+main{
+    display: flex;
+}
+
+section{
+    width: 70%;    
+    font-family: 'Courier New', Courier, monospace;
+}
+.article h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-transform: uppercase;
+    color:#333;
+    margin-top: 20px;
+}
+.article .date{
+    color: gray;
+    margin-top: 5px;
+}
+
+.article p{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    line-height: 20px;
+    margin-right: 40px;
+    text-align: justify;
+}
+.button-more{
+    padding: 5px;
+    background: #235e3d;
+    color: white;
+    text-decoration: none  ;
+    text-align: center;
+    font-size: 14px;
+    /* margin-bottom: 30px; */
+}
+.aside{
+    margin-left: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    width: 30%;
+    /* border: 1px solid; */
+}
+
+.aside h4{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 10px;
+    color:#333;
+    background: url(../img/lines.png) repeat-x;
+
+}
+
+.aside span{
+    background: white;
+    padding: 5px;
+}
+
+.aside img{
+    width: 100%;
+}
+
+.aside p{
+    font-size: 14px;
+    text-align: justify;
+}
+
+form input[type="text"],
+form input[type="password"]{
+    margin-left: 2px;
+    padding: 5px;
+    border-radius: 2px;
+    border:1px solid gray;
+    width: 90%;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}   
+
+form input[type="submit"]{
+    background: #ccc;
+    padding: 10px;
+    border: 1px solid #ccc;
+    color: #333;
+    cursor: pointer;
+}
+
+footer{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    height: 47px;
+    background: rgba(51, 51, 51, 0.70);
+    margin: 0px auto;
+    width: 70%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+    line-height: 47px;
+}

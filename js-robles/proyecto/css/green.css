@@ -1,0 +1,19 @@
+body{
+    background: url('../img/hojas.jpg');
+    /*background-attachment: fixed:esto sirve si hago scroll en la pagina 
+    iempre se muestre asi el fondo y no se acabe la imagen
+    */
+    background-attachment: fixed; 
+}
+
+
+#logo{
+    background: #235E3D;
+}
+
+#menu ul li:hover{
+    background: #235E3D;   
+}
+.boton{
+    background: #235E3D;
+}
